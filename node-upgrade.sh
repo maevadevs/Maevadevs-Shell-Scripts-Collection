@@ -10,8 +10,9 @@ nvm uninstall [a.b.c]
 # Start using the new version
 nvm use [x]
 
-# ----- Checking Results
+# ----- Checking Results: Diagnostics
 nvm ls
 node -v
 npm -v
 npm ls -g --depth=0
+npm outdated -g
